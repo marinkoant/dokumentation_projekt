@@ -1,6 +1,6 @@
 ### 1. Projektbezeichnung
 
-Entwicklung einer Projektmanagement-App mit Laravel als Backend-Framework und JavaScript als Frontend-Framework.
+Entwicklung einer Projektmanagement-App mit Laravel als Backend-Framework und JavaScript für die dynamische Umsetzung des Frontends.
 
 ### 1.1 Kurzbeschreibung des Projekts
 
