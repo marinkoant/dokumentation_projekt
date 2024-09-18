@@ -19,22 +19,20 @@ Das Ziel des Projektes ist die Entwicklung einer vollständigen Projektmanagemen
 - Benutzerverwaltung (Registrierung, Login, Berechtigungen).
 - CRUD-Funktionalitäten (Erstellen, Lesen, Bearbeiten, Löschen) für Boards, Listen und Karten.
 - Drag-and-Drop-Support für die Umorganisation von Listen und Karten.
-- (Authentifizierung mittels JWT-Token).
-- Benachrichtigungen für Benutzer über Aufgabenänderungen und -zuweisungen.(falls Zeit übrig bleibt)
+- Authentifizierung des Users.
+- Benachrichtigungen für Benutzer über Aufgabenänderungen und -zuweisungen.
 - Kommentarfunktion für Aufgaben.
 - Suchfunktion zum Durchsuchen von Boards, Listen und Karten.
-- (Aktivitätsprotokoll, um Änderungen nachvollziehbar zu machen.)
-- (Responsive Frontend mit intuitiver Benutzeroberfläche.)
+
 
 ### 2.1 Anforderungen
 
 Folgende Anforderungen müssen im Projekt erfüllt werden:
 
-- **Backend**: Laravel-basierte RESTful API zur Verwaltung von Boards, Listen und Karten mit (JWT-Authentifizierung.)
-- **Datenbank**: Modellierung und Implementierung einer relationalen Datenbank zur Speicherung von Benutzern, Aufgaben und Kommentaren.
+- **Backend**: Laravel-basierte RESTful API zur Verwaltung von Boards, Listen und Karten mit Authentifizierung.
+- **Datenbank**: Modellierung und Implementierung einer relationalen SQL Datenbank zur Speicherung von Benutzern, Aufgaben und Kommentaren.
 - **Benutzerfreundlichkeit**: Intuitive Bedienung der Benutzeroberfläche, Drag-and-Drop für Aufgaben sowie Kommentarfunktion.
-- **Sicherheit**: Sichere Authentifizierung und Datenverarbeitung, verschlüsselte Passwortspeicherung.(falls Zeit übrig bleibt)
-- **E-Mail-Benachrichtigungen**: Automatisierte Benachrichtigungen an Benutzer bei Aufgabenänderungen.(wenn genug Zeit übrig bleibt)
+- **Sicherheit**: Sichere Authentifizierung und Datenverarbeitung.
 - **Suchfunktion**: Ermöglicht das schnelle Auffinden von Projekten und Aufgaben.
 
 ### 2.2 Einschränkungen
@@ -42,8 +40,6 @@ Folgende Anforderungen müssen im Projekt erfüllt werden:
 Das Projekt soll in einem begrenzten Zeitrahmen von maximal 80 Stunden abgeschlossen werden. Es wird keine vollständige Echtzeit-Synchronisierung implementiert; Aktualisierungen erfolgen nach Benutzeraktionen. Die App soll zunächst als Webanwendung realisiert werden, ohne spezifische native mobile App-Unterstützung.
 
 ### 3. Projektstrukturplan
-
-#### 3.1 Was ist zur Erfüllung der Zielsetzung erforderlich?
 
 Das Projekt wird in folgenden Schritten strukturiert:
 
@@ -54,7 +50,7 @@ Das Projekt wird in folgenden Schritten strukturiert:
 
 - **Entwurfsphase**:
   
-  - Datenmodellierung (z.B. MySQL).
+  - Datenmodellierung, MySQL.
   - API-Design und Festlegung der Schnittstellen.
   - Erstellung von Mockups und Prototypen für das Frontend.
 
